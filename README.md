@@ -53,7 +53,7 @@ Run the Code
 
 ![Screenshot 2024-07-29 114950](https://github.com/user-attachments/assets/b4c6529f-d7b0-4ef3-b638-9813c1f0cb9b)
 
-Save your Python script with a ‘.py’ extension fro example i named my filekeylogger.py’). Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
+Save your Python script with a ‘.py’ extension for example, I named my file "keylogger.py" and stored it on my desktop for easy access. Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
 
 py keylogger.py
 
