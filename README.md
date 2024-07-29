@@ -33,7 +33,15 @@ Create the Key Press Event Function
 
 # Step
 Step 5: Register the Key Press Event
+
+Finally, we want our program to wait until a key is pressed before it exits. Use the ‘keyboard.wait()’ function to accomplish this.
+
+keyboard.wait()
+
 ![Screenshot 2024-07-29 114950](https://github.com/user-attachments/assets/b4c6529f-d7b0-4ef3-b638-9813c1f0cb9b)
 
+Finally, we want our program to wait until a key is pressed before it exits. Use the ‘keyboard.wait()’ function to accomplish this.
+
+keyboard.wait()
 
  
