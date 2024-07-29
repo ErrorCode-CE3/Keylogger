@@ -1,7 +1,5 @@
 # Keylogger
 
-Basic beginner keylogger
-
 # Disclaimer
 
 This tutorial is for educational purposes only and should only be used on your personal system. 
@@ -41,6 +39,7 @@ Register the Key Press Event
 Register the ‘on_key_press’ function to be called whenever a key is pressed. This will enable our code to capture the keystrokes. Add the following line:
 
 keyboard.on_press(on_key_press)
+
 # Step 6 
 Finally, we want our program to wait until a key is pressed before it exits. Use the 
 
@@ -48,16 +47,13 @@ Finally, we want our program to wait until a key is pressed before it exits. Use
 
 function to accomplish this.
 
-# Step 7: 
-Run the Code
-
-py keylogger.py
 
 # Final Code
 
 ![Screenshot 2024-07-29 114950](https://github.com/user-attachments/assets/b4c6529f-d7b0-4ef3-b638-9813c1f0cb9b)
 
-Save your Python script with a ‘.py’ extension for example, I named my file "keylogger.py" and stored it on my desktop for easy access. Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
+# Step 7
+Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
 
 ![Screenshot 2024-07-29 122614](https://github.com/user-attachments/assets/f943a530-664c-4562-bb25-b1f051e2e85f)
 
