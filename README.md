@@ -51,11 +51,13 @@ function to accomplish this.
 # Step 7: 
 Run the Code
 
+py keylogger.py
+
+# Final Code
+
 ![Screenshot 2024-07-29 114950](https://github.com/user-attachments/assets/b4c6529f-d7b0-4ef3-b638-9813c1f0cb9b)
 
 Save your Python script with a ‘.py’ extension for example, I named my file "keylogger.py" and stored it on my desktop for easy access. Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
-
-py keylogger.py
 
 ![Screenshot 2024-07-29 122614](https://github.com/user-attachments/assets/f943a530-664c-4562-bb25-b1f051e2e85f)
 
